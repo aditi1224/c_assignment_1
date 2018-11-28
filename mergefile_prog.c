@@ -1,4 +1,3 @@
-/* c program to merge files */
 #include <stdio.h>
   #include <string.h>
   #define MAX 256
@@ -71,4 +70,4 @@
         rename(temp, fname1);
 
         return 0;
-        }
+  }
