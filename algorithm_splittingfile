@@ -9,7 +9,8 @@ Step4: Assign name to the output files file2 and file3 . Concatenate .txt extens
 Step5: Assign the pointer to the input file ,file1 to fp1 and open in read mode. 
 
     
-    if fp1 == nil {
+    if fp1 == nil 
+      {
 
   display error, unable to open file1 in read mode
 
@@ -21,7 +22,8 @@ Assign the pointer to the output file ,file2 to fp2 and open in write mode.
 
  
 
-   if fp2 == nil {
+   if fp2 == nil 
+   {
 
  display error, unable to open file2 in write mode
 
@@ -29,13 +31,14 @@ close fp1
 
 Stop.
 
-}
+   }
 
 Assign the pointer to the output file ,file3 to fp3 and open in write mode.
 
  
 
-  if fp3 == nil {
+  if fp3 == nil
+  {
 
  display error, unable to open fp3 in write mode
 
@@ -45,7 +48,7 @@ close fp2
 
 Stop.
 
-}
+  }
 
  
 
