@@ -1,0 +1,64 @@
+Step1: Start.
+
+Step2: Declare variables i, line, fp1, fp2, fp3, file1, file2, file3, str.
+
+Step3: Read the Input file and store it in file1. 
+
+Step4: Assign name to the output files file2 and file3 . Concatenate .txt extension to the input and output file.
+
+Step5: Assign the pointer to the input file ,file1 to fp1 and open in read mode. 
+
+    
+    if fp1 == nil {
+
+  display error, unable to open file1 in read mode
+
+        Stop.
+
+       } 
+
+Assign the pointer to the output file ,file2 to fp2 and open in write mode.
+
+ 
+
+   if fp2 == nil {
+
+ display error, unable to open file2 in write mode
+
+close fp1
+
+Stop.
+
+}
+
+Assign the pointer to the output file ,file3 to fp3 and open in write mode.
+
+ 
+
+  if fp3 == nil {
+
+ display error, unable to open fp3 in write mode
+
+close fp1
+
+close fp2
+
+Stop.
+
+}
+
+ 
+
+Step6: Calculate the number of lines in file1 to get half of the file.
+
+Step7: Move the pointer to the start of file.
+
+Step8: Write the first half of data to the output file fp2
+
+           write the second half of the data to the output file fp3.
+
+Step9: Close all opened files and remove the input file.
+
+Step10: Stop.
+
+ 
