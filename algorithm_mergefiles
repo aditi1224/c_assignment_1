@@ -1,0 +1,65 @@
+Step1: Start.
+
+Step2: Declare variables ch, fp1, fp2, fp3, fname1, fname2, temp and assign file name to temp.
+
+Step3: Read the first and second Input file and store in fname1 and fname2. 
+
+Step4: Append a “\0” to the last index number in both the input files.
+
+Step5: Assign the pointer to the first input file ,fname1 to fp1 and open in read mode. 
+
+    
+
+     if fp1 == nil
+      {
+
+  display error, unable to open first file in read mode
+
+        Stop.
+
+       } 
+
+Assign the pointer to the second input file ,fname2 to fp2 and open in read mode.
+
+ 
+
+   if fp2 == nil
+   {
+
+ display error, unable to open second file in read mode
+
+close fp1
+
+Stop.
+
+   }
+
+ 
+
+Step6: Open temp file in write mode.
+
+Assign the pointer to the output file ,temp to fp3 and open in write mode.
+
+ 
+
+   if fp3 == nil
+   {
+
+ display error, unable to open temp file in write mode
+
+Stop.
+
+   }
+
+Step7: Copy the contents of fp1 to temp file.
+
+Step8: Copy the contents of fp2 to temp file
+
+Step9: Close all opened files and remove the input file.
+
+Step10: Stop.
+
+ 
+
+ 
+
